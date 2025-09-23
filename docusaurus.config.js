@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://jiuzhoulu.github.io',
+  url: 'https://zerovatech-us.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/zvmanualtest/',
+  baseUrl: '/zerova-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'jiuzhoulu', // Usually your GitHub org/user name.
-  projectName: 'zvmanualtest', // Usually your repo name.
+  organizationName: 'zerovatech-us', // Usually your GitHub org/user name.
+  projectName: 'zerova-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
