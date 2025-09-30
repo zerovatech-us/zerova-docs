@@ -1,0 +1,8 @@
+{
+  "label": "User Manuals",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Charger webpage setting manuals, status code description, etc"
+  }
+}

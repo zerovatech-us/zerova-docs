@@ -1,0 +1,8 @@
+{
+  "label": "WebPage Settings",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Charger Webpage Settings"
+  }
+}

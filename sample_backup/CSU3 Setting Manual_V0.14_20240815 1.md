@@ -1,4 +1,4 @@
-## Document History
+<!-- ## Document History
 
 <table>
 <colgroup>
@@ -6196,4 +6196,4 @@ distinguish in comma flag.</p>
 </table>
 
 [^1]: This may vary between charger models. Please refer to the user
-    manual for the specific IP address and subnet mask.
+    manual for the specific IP address and subnet mask. -->
