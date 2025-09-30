@@ -106,16 +106,16 @@ const config = {
         links: [
           {
             title: 'Docs',
-            items: [
-              {
-                label: 'User Manual',
-                to: '/docs/user-manual',
-              },
-              {
-                label: 'Release Notes',
-                to: '/docs/release-notes',
-              },
-            ],
+            // items: [
+            //   {
+            //     label: 'User Manual',
+            //     to: '/docs/user-manual',
+            //   },
+            //   {
+            //     label: 'Release Notes',
+            //     to: '/docs/release-notes',
+            //   },
+            // ],
           },
           // {
           //   title: 'Community',
