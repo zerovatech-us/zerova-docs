@@ -103,20 +103,20 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'User Manual',
-                to: '/docs/user-manual',
-              },
-            //   {
-            //     label: 'Release Notes',
-            //     to: '/docs/release-notes',
-            //   },
-            ],
-          },
+        // links: [
+        //   {
+        //     title: 'Docs',
+        //     items: [
+        //       {
+        //         label: 'User Manual',
+        //         to: '/docs/user-manual',
+        //       },
+        //     //   {
+        //     //     label: 'Release Notes',
+        //     //     to: '/docs/release-notes',
+        //     //   },
+        //     ],
+        //   },
           // {
           //   title: 'Community',
           //   items: [
@@ -147,7 +147,7 @@ const config = {
           //     },
           //   ],
           // },
-        ],
+        // ],
         copyright: `Copyright © ${new Date().getFullYear()} Zerova Technology. Built with Docusaurus.`,
       },
       prism: {
