@@ -1,6 +1,9 @@
-# Set Page
+# System Page
 
-## System
+## System - System Information
+
+1. **SET → System** in the charger menu.  
+![System Info Screenshot](img/system-info.png)
 
 > Each partial information display depend on CHARGER model name.
 >
