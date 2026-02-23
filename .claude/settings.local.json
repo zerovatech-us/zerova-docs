@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv:*)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(python -c:*)",
+      "Bash(npx create-docusaurus@latest site classic --typescript --skip-install)",
+      "Bash(npm install)",
+      "Bash(python scripts/extract_pdf.py:*)",
+      "Bash(awk:*)",
+      "Bash(npm run build:*)",
+      "Bash(wc:*)",
+      "Bash(.venv/Scripts/python:*)"
+    ]
+  }
+}
