@@ -169,6 +169,8 @@ python scripts/extract_pdf.py
 15. **Social card** — `share_card.png` added to `static/img/`; configured as `themeConfig.image` in `docusaurus.config.ts`.
 16. **Settings page TOC** — added `###` sub-headings to `03-system.md` (3 sections), `04-charging.md` (3), `05-network.md` (5), `06-backend.md` (5); removed artifact `## 3.1. Set` heading from `03-system.md`.
 17. **Restart section fix** — `## 3.3.4. Restart` content moved from `09-language.md` (where PDF page-boundary extraction placed it) to `08-other.md` (correct location).
+18. **Missing page 9 restored** — PDF page 9 (0-indexed: 8) was never extracted due to a gap in the `SECTIONS` list (`extract_pdf.py` jumped from page 7 to page 9). Extracted page 8 via one-off Python snippet and manually prepended the content to `03-system.md`: section heading "3. Setting instructions", intro paragraph, and Form 3-1 account group table.
+19. **Connection setup table condensed** — Table 1-1 in `01-connection-setup.md` replaced from a 9-column sparse table (17 empty cells, PDF merged-cell artifact) to a flat 3-column single-row table preserving all values (Charger LAN Port IP / PC LAN Port IP / PC LAN Port Netmask).
 
 ### Resolved Issues
 
@@ -186,6 +188,8 @@ python scripts/extract_pdf.py
 | 10 | MO Root Certificate description truncated | PDF page-boundary split; completed description manually in `04-charging.md` |
 | 11 | `3.3.4. Restart` in wrong file | PDF page-boundary split placed content in `09-language.md`; moved to `08-other.md` manually |
 | 12 | Artifact heading `## 3.1. Set` in `03-system.md` | Removed — truncated from PDF chapter heading, not meaningful content |
+| 13 | PDF page 9 (0-indexed: 8) missing from all output | `SECTIONS` gap between pages 7 and 9; extracted page 8 via one-off script and prepended to `03-system.md` |
+| 14 | Table 1-1 in `01-connection-setup.md` has 9 columns, 17 empty cells | PDF merged-cell artifact; manually rewritten as flat 3-column table |
 
 ---
 
