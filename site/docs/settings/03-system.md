@@ -4,6 +4,17 @@ title: "3.1.1 System"
 sidebar_position: 1
 ---
 
+## 3. Setting instructions
+
+CSU3 configuration page have five part, it's include Set、Upgrade、Other、Language and Account.
+
+| Group | Account | Password | Permission |
+| --- | --- | --- | --- |
+| Aamin | zerova | t6sji4j83 | Full permission |
+| Manager | manage | ej03xu3m06 | Network / Backend configurable |
+| User | monitor | ru0 dj/4 | Configuration read only |
+
+Form 3-1 Account group and default password table. Each part detail function will descript in below chapter.
 
 ## 3.1.1. System
 

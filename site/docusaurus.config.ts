@@ -16,6 +16,9 @@ const config: Config = {
 
   url: 'https://zerovatech-us.github.io',
   baseUrl: '/zerova-docs/',
+  organizationName: 'zerovatech-us',
+  projectName: 'zerova-docs',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   markdown: {

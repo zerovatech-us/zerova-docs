@@ -18,10 +18,9 @@ Step-3 Set Ethernet of the personal computer to use static IP, IP address settin
 
 value as follow below setting table:
 
-|  | Charger LAN port |  |  | PC LAN port |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | IP address |  |  | IP address |  |  | Netmask |  |
-| 192.168.1.10 |  |  | 192.168.1.1 |  |  | 255.255.255.0 |  |  |
+| Charger LAN Port (IP) | PC LAN Port (IP) | PC LAN Port (Netmask) |
+| --- | --- | --- |
+| 192.168.1.10 | 192.168.1.1 | 255.255.255.0 |
 
 Form 1-1 PC static IP address set mapping table
 
