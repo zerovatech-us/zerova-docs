@@ -1,0 +1,14 @@
+# Python
+.venv/
+scripts/__pycache__/
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# Internal planning docs
+migration-plan.md
+plan.md
+
+# Source PDF (large binary, internal)
+CSU3 Setting Manual_V0.23_20250930.pdf
